@@ -35,6 +35,6 @@ public class Practice_3_part_3 {
         System.out.println("////////////////////////////////////////////" +
                 "/// Variant 3, Task num.5: house ///" +
                 "////////////////////////////////////////////");
-        House new_house = new House();
+        House new_house = new House(2, 4);
     }
 }

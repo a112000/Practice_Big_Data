@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0e13846-6317-4431-a20b-c04ad0279f61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Abiturient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix_nm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice_3_part_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice_3_part_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice_3_part_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice_3_part_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Simp_fraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Buildable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exhibition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mobilable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Painting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Public_building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SiemensMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Theater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Year.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice_3_part_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice_3_part_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Практика1_Бычков.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Практика1_Бычков.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,14 +54,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Practice_3_part_5">
-    <configuration name="Practice_3" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Practice_3" />
-      <module name="Practice_Big_Data" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Practice_4">
     <configuration name="Practice_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice_3" />
       <module name="Practice_Big_Data" />
@@ -110,6 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice_4" />
+      <module name="Practice_Big_Data" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice_1" />
       <module name="Practice_Big_Data" />
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice_4" />
+        <item itemvalue="Application.Practice_3_part_3" />
         <item itemvalue="Application.Practice_3_part_5" />
         <item itemvalue="Application.Practice_3_part_4" />
-        <item itemvalue="Application.Practice_3_part_3" />
         <item itemvalue="Application.Practice_3_part_2" />
-        <item itemvalue="Application.Practice_3" />
       </list>
     </recent_temporary>
   </component>
