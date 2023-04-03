@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Practice_3_part_5 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CostException {
         System.out.println("////////////////////////////////////////////" +
                 "/// Variant 4, Task num.5: library ///" +
                 "////////////////////////////////////////////");

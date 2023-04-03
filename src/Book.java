@@ -102,7 +102,7 @@ public class Book {
                 + ", borroing_type" + borroing_type
                 + "}";
     }
-    public static Book[] create_massive(int num_of_books) {
+    public static Book[] create_massive(int num_of_books) throws CostException{
         Book[] books = new Book[num_of_books];
         for (int i = 0; i < num_of_books; i++) {
             books[i] = new Book();
@@ -122,6 +122,8 @@ public class Book {
             System.out.println("Enter pages num of the " + i + "th Book");
             books[i].setPages_num(Integer.parseInt(myObj.nextLine()));
             System.out.println("Enter cost of the " + i + "th Book");
+            String input_str = myObj.nextLine();
+            if(Integer.parseInt(input_str)<0) throw new CostException("The cost is less than 0: ", Integer.parseInt(input_str));
             books[i].setCost(Integer.parseInt(myObj.nextLine()));
         }
         return books;

@@ -55,10 +55,16 @@ public class Matrix {
         }
         else {
             Matrix result_matrix = new Matrix(this.n, 0);
-            for (int i = 0; i < this.n; i++) {
-                for (int j = 0; j < this.n; j++) {
-                    result_matrix.assignVal(i, j, this.getVal(i, j) + sec_matrix.getVal(i, j));
+            try {
+                for (int i = 0; i < this.n; i++) {
+                    for (int j = 0; j < this.n; j++) {
+                        result_matrix.assignVal(i, j, this.getVal(i, j) + sec_matrix.getVal(i, j));
+                        double test_exception = 1 / 0;
+                    }
                 }
+            }
+            catch(ArithmeticException e) {
+                System.out.println(e);
             }
             return result_matrix;
         }
@@ -70,10 +76,15 @@ public class Matrix {
         }
         else {
             Matrix result_matrix = new Matrix(this.n, 0);
-            for (int i = 0; i < this.n; i++) {
-                for (int j = 0; j < this.n; j++) {
-                    result_matrix.assignVal(i, j, this.getVal(i, j) - sec_matrix.getVal(i, j));
+            try {
+                for (int i = 0; i < this.n; i++) {
+                    for (int j = 0; j < this.n; j++) {
+                        result_matrix.assignVal(i, j, this.getVal(i, j) - sec_matrix.getVal(i, j));
+                    }
                 }
+            }
+            catch(ArithmeticException e) {
+                System.out.println(e);
             }
             return result_matrix;
         }
@@ -85,51 +96,64 @@ public class Matrix {
         }
         else {
             Matrix result_matrix = new Matrix(this.n, 0);
-            for (int i = 0; i < this.n; i++) {
-                for (int j = 0; j < this.n; j++) {
-                    double sum = 0;
-                    for (int t=0; t < this.n; t++) {
-                        sum = sum + this.getVal(i, t) * sec_matrix.getVal(t, j);
+            try {
+                for (int i = 0; i < this.n; i++) {
+                    for (int j = 0; j < this.n; j++) {
+                        double sum = 0;
+                        for (int t = 0; t < this.n; t++) {
+                            sum = sum + this.getVal(i, t) * sec_matrix.getVal(t, j);
+                        }
+                        result_matrix.assignVal(i, j, sum);
                     }
-                    result_matrix.assignVal(i, j, sum);
                 }
+            }
+            catch(ArithmeticException e) {
+                System.out.println(e);
             }
             return result_matrix;
         }
     }
     public double f_norm() {
         double result_norm = 0;
-        for (int i = 0; i < this.n; i++) {
-            double summ = 0;
-            for (int j = 0; j < this.n; j++) {
-                summ = summ + this.getVal(i, j);
-            }
-            if (i == 0) {
-                result_norm = summ;
-            }
-            else {
-                if (summ > result_norm) {
+        try {
+            for (int i = 0; i < this.n; i++) {
+                double summ = 0;
+                for (int j = 0; j < this.n; j++) {
+                    summ = summ + this.getVal(i, j);
+                }
+                if (i == 0) {
                     result_norm = summ;
+                } else {
+                    if (summ > result_norm) {
+                        result_norm = summ;
+                    }
                 }
             }
+        }
+        catch(ArithmeticException e) {
+            System.out.println(e);
         }
         return result_norm;
     }
     public double s_norm() {
         double result_norm = 0;
-        for (int i = 0; i < this.n; i++) {
-            double summ = 0;
-            for (int j = 0; j < this.n; j++) {
-                summ = summ + this.getVal(j, i);
-            }
-            if (i == 0) {
-                result_norm = summ;
-            }
-            else {
-                if (summ > result_norm) {
+        try {
+            for (int i = 0; i < this.n; i++) {
+                double summ = 0;
+                for (int j = 0; j < this.n; j++) {
+                    summ = summ + this.getVal(j, i);
+                }
+                if (i == 0) {
                     result_norm = summ;
+                } else {
+                    if (summ > result_norm) {
+                        result_norm = summ;
+                    }
                 }
             }
+        }
+        catch(ArithmeticException e) {
+            System.out.println(e);
         }
         return result_norm;
     }

@@ -102,7 +102,7 @@ public class Abiturient {
                 + ", third grade=" + grades[2]
                 + "}";
     }
-    public static Abiturient[] create_massive(int num_of_abits) {
+    public static Abiturient[] create_massive(int num_of_abits) throws GradeException{
         Abiturient[] abiturients = new Abiturient[num_of_abits];
         for (int i = 0; i < num_of_abits; i++) {
             abiturients[i] = new Abiturient();
@@ -120,11 +120,17 @@ public class Abiturient {
             System.out.println("Enter name of the " + i + "th abiturient");
             abiturients[i].setName(myObj.nextLine());
             System.out.println("Enter first grade of the " + i + "th abiturient");
-            abiturients[i].setFGrade(Integer.parseInt(myObj.nextLine()));
+            String input_str = myObj.nextLine();
+            if(Integer.parseInt(input_str)<0 || Integer.parseInt(input_str)>10) throw new GradeException("The grade is less than 0 or bigger than 10: ", Integer.parseInt(input_str));
+            abiturients[i].setFGrade(Integer.parseInt(input_str));
             System.out.println("Enter second grade of the " + i + "th abiturient");
-            abiturients[i].setSGrade(Integer.parseInt(myObj.nextLine()));
+            input_str = myObj.nextLine();
+            if(Integer.parseInt(input_str)<0 || Integer.parseInt(input_str)>10) throw new GradeException("The grade is less than 0 or bigger than 10: ", Integer.parseInt(input_str));
+            abiturients[i].setSGrade(Integer.parseInt(input_str));
             System.out.println("Enter third grade of the " + i + "th abiturient");
-            abiturients[i].setTGrade(Integer.parseInt(myObj.nextLine()));
+            input_str = myObj.nextLine();
+            if(Integer.parseInt(input_str)<0 || Integer.parseInt(input_str)>10) throw new GradeException("The grade is less than 0 or bigger than 10: ", Integer.parseInt(input_str));
+            abiturients[i].setTGrade(Integer.parseInt(input_str));
         }
         return abiturients;
     }

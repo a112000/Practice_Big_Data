@@ -1,0 +1,1 @@
+Abiturient{id=3, address=r, surname=r, second name=r, phone=3, name=r, first grade=5, second grade=5, third grade=5}

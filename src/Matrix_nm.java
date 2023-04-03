@@ -70,15 +70,20 @@ public class Matrix_nm {
         }
     }
     public void matr_sq() {
-        if (this.n != this.m) {
-            System.out.println("Matrix sizes does not match.");
-        }
-        else {
-            for (int i = 0; i < this.n; i++) {
-                for (int j = 0; j < this.m; j++) {
-                    this.all_numbers[i][j] = this.all_numbers[i][j] * this.all_numbers[i][j];
+        try {
+            if (this.n != this.m) {
+                System.out.println("Matrix sizes does not match.");
+            } else {
+                for (int i = 0; i < this.n; i++) {
+                    for (int j = 0; j < this.m; j++) {
+                        this.all_numbers[i][j] = this.all_numbers[i][j] * this.all_numbers[i][j];
+                        int test_exception = 1 / 0;
+                    }
                 }
             }
+        }
+        catch(ArithmeticException e) {
+            System.out.println(e);
         }
     }
 }
