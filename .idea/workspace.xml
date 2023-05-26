@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0e13846-6317-4431-a20b-c04ad0279f61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Practice_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_13_10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Практика8_Бычков.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Практика8_Бычков.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice_9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,6 +36,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2MJlscyd3UjNeiyjU0IlEKnNnDR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,18 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/albych/Documents/Универ/Мага/Языки программирования для работы с большими данными/untitled1",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Practice_9">
-    <configuration name="Practice_5_part_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice_5_part_4" />
+    <configuration name="Practice_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice_10" />
       <module name="Practice_Big_Data" />
-      <option name="PROGRAM_PARAMETERS" value="string int char float" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,19 +105,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Practice_10" />
       <item itemvalue="Application.Practice_9" />
       <item itemvalue="Application.Practice_8" />
       <item itemvalue="Application.Practice_7" />
       <item itemvalue="Application.Practice_6" />
-      <item itemvalue="Application.Practice_5_part_4" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Practice_9" />
+        <item itemvalue="Application.Practice_10" />
         <item itemvalue="Application.Practice_8" />
         <item itemvalue="Application.Practice_7" />
         <item itemvalue="Application.Practice_6" />
-        <item itemvalue="Application.Practice_5_part_4" />
       </list>
     </recent_temporary>
   </component>
